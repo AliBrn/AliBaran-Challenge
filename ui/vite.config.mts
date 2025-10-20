@@ -9,10 +9,12 @@ export default defineConfig(() => {
     
   return {
     plugins: [react()],
-    base,
+    base :"https://github.com/AliBrn/AliBaran-Challenge",
     build: {
       outDir: "dist",
       assetsDir: "assets",
     },
   };
 });
+
+
